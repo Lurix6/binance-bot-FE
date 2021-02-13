@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+}
+
+html {
+  background-color: #3f4753;
+  height: 100%;
+}
+
+.loginForm {
+  width: 500px;
+}
+
+#root {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4f5867;
+  width: 280px;
+  height: 140px;
+}
+
+body {
+  height: 100%;
+}
+
+.form {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin-right: 10px;
+  color: white;
+  background-color: #0000;
+  width: 85px;
+  height: 30px;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+img:first-child {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+}
+
+img:nth-child(2) {
+  background-color: black;
+  height: 34px;
+}
+
+input:first-child {
+  margin-bottom: 11px;
+}
+
+input {
+  background-color: #3e4653;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+input[type="text"]::placeholder {
+  color: white;
+}
+
+input[type="password"]::placeholder {
+  color: white;
+}
+
+.ImageRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.PngWrapper_img {
+  width: 20px;
+  height: 34px;
+}
+
+.passwordImgWrapper {
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  width: 30px;
+  display: flex;
+  float: left;
+  height: 34px
+}
+
+.passwordImgWrapper > img {
+  width: 10px;
+  height: 10px;
+}
