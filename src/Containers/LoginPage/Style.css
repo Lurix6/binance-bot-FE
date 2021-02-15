@@ -50,7 +50,7 @@ body {
 
 .btn {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   align-content: space-between;
@@ -65,7 +65,7 @@ body {
 
 img:first-child {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   background-color: black;
 }
@@ -118,7 +118,7 @@ input[type="password"]::placeholder {
   height: 34px
 }
 
-.passwordImgWrapper > img {
+.passwordImgWrapper>img {
   width: 10px;
   height: 10px;
 }
